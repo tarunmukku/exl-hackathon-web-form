@@ -1,7 +1,6 @@
 import './App.css';
 import Form from './components/Form'
 import React from 'react';
-import CustomWidget from './components/CustomWidget'
 
 
 class App extends React.Component {
@@ -49,7 +48,6 @@ class App extends React.Component {
    
     return (
     <div className="App">     
-     {/* <CustomWidget/>  */}
      <Form></Form>
     </div>
   );
